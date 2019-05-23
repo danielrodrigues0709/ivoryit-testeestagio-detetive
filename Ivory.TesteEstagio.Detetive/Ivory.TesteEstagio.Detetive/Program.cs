@@ -47,7 +47,7 @@ namespace Ivory.TesteEstagio.Detetive
                         "3 - Hall\n" +
                         "4 - Escritório\n" +
                         "5 - Sala de estar\n" +
-                        "6 - Sala de Jantar\n" +
+                        "6 - Sala de jantar\n" +
                         "7 - Sala de música\n" +
                         "8 - Salão de festas\n" +
                         "9 - Salão de jogos\n");
@@ -56,7 +56,7 @@ namespace Ivory.TesteEstagio.Detetive
                     Console.WriteLine("\nDigite o número referente ao local dentre as pções abaixo:\n" +
                         "1 - Castiçal\n" +
                         "2 - Cano\n" +
-                        "3 - Chave Inglesa\n" +
+                        "3 - Chave inglesa\n" +
                         "4 - Corda\n" +
                         "5 - Revólver\n" +
                         "6 - Faca\n");
@@ -85,6 +85,7 @@ namespace Ivory.TesteEstagio.Detetive
 
                     Console.Clear();
                 }
+                //Evita dar erro caso for digitada uma opção incorreta
                 catch (FormatException)
                 {
                     Console.WriteLine("Opção inválida, tente novamente");
